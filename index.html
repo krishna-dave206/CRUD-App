@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">
+        CRUD Application
+    </h1>
+    <section id="details">
+        <form autocomplete="off" onsubmit="onFormSubmit()" name="crud-app">
+            <label for="box1"> Customer Name</label>
+            <br>
+            <input type="text" id="box1">
+            <br>
+            <label for="box2">Customer ID</label>
+            <br>
+            <input type="number" id="box2">
+            <br>
+            <label for="box3">Phone number</label>
+            <br>
+            <input type="number" id="box3">
+            <br>
+            <br>
+            <button id="btn">Submit</button>
+        </form>
+    </section>
+    <br>
+    <hr>
+    <td>
+        <table class="info" id="storelist">
+            <thead>
+                <tr>
+                <th class="row">Customer Name</th>
+                <th class="row">Customer ID</th>
+                <th class="row">Phone Number</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </td>
+    <script src="script.js"></script>
+</body>
+
+</html>
